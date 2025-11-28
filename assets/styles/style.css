@@ -20,6 +20,8 @@ body {
     padding: 0 20px;
 }
 
+/* HEADER */
+
 .header {
     padding: 30px 0px 30px 714px;
     border-bottom: 1px solid #a1a1a1;;
@@ -61,6 +63,12 @@ body {
     width: 100%;         
 }
 
+/* HEADER */
+
+/* -------------------------------- */
+
+/* HERO */
+
 .hero {
     color: #fff;
     padding: 164px 408px 251px 408px;
@@ -80,25 +88,120 @@ body {
     margin-bottom: 37px;
 }
 
-.hero__link {
+.blue__link {
     font-weight: 500;
-    font-size: 12px;
-    display: inline-block;
+    font-size: 14px;
+    display: block;
+    width: max-content;
     margin: 0 auto;
     text-align: center;
     padding: 10px 27px 10px 27px;
     background-color: #4985ff;
     border-radius: 22px;
     transition: 0.3s;
+    color: #fff;
 }
 
-.hero__link:hover {
+.blue__link:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.hero__link:active {
+.blue__link:active {
     background-color: #3a6edb;
     transform: translateY(0px) scale(0.98);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
+
+/* HERO */
+
+/* -------------------------------- */
+
+/* SERVICES */
+
+.services {
+    padding: 82px 0 78px 0;
+}
+
+.services__title {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 146%;
+    text-align: center;
+    color: var(--dark);
+}
+.services__title span {
+    display: block;
+}
+
+.services__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    text-align: center;
+    color: #999999;
+    margin-top: 37px;
+}
+.services__desc span {
+    display: block;
+}
+
+.services__cards {
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 41px;
+}
+
+.services__card {
+    display: flex;
+    align-items: flex-start;
+}
+
+.services__card__wrapper {
+    max-width: 160px;
+    margin-left: 21px;   
+    margin-top: 34px; 
+}
+
+.services__card__wrapper__title {
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+}
+
+.services__card__wrapper__desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 158%;
+    color: #999999;
+    margin-top: 9px;
+}
+
+.services__card__icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #4985ff;
+    border-radius: 50%;
+}
+
+.services__card__icon:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(70px + 15px); /* 70 + 7.5*2 */
+    height: calc(70px + 15px);
+    border: 1px solid #e0e0e0; /* второй круг */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* SERVICES */
+
+/* -------------------------------- */
