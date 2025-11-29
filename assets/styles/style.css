@@ -205,3 +205,81 @@ body {
 /* SERVICES */
 
 /* -------------------------------- */
+
+/* ABOUT-US */
+.about-us {
+    background-color: #F6F6F8;
+    padding: 75px 0 52.5px 0;
+}
+
+.about-us__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us__top img {
+    border-radius: 22.5px;
+    box-shadow: 0 0 7px 0 rgba(111, 111, 111, 0.25);
+}
+
+.about-us__top__wrapper__title {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 146%;
+    color: var(--dark);
+}
+
+.about-us__top__wrapper__desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 158%;
+    color: #999999;
+    margin: 30px 0 22.5px 0;
+    max-width: 370px;
+}
+
+.about-us__top__link {
+    text-decoration: underline;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4985ff;
+}
+
+.about-us__bottom {
+    margin-top: 67px;
+    padding-top: 52.5px ;
+    border-top: 1px solid #e0e0e0;
+}
+
+.about-us__bottom__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us__bottom__card__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-us__bottom__card__number {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 146%;
+    color: #000;
+}
+
+.about-us__bottom__card__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    color: #999999;
+}
+/* ABOUT-US */
+
+/* -------------------------------- */
