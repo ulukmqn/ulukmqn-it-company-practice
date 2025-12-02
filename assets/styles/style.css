@@ -15,7 +15,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 834px;
+    max-width: 854px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -24,7 +24,7 @@ body {
 
 .header {
     padding: 30px 0px 30px 714px;
-    border-bottom: 1px solid #a1a1a1;;
+    border-bottom: 1px solid #a1a1a1;
 }
 
 .header__list {
@@ -251,7 +251,7 @@ body {
 
 .about-us__bottom {
     margin-top: 67px;
-    padding-top: 52.5px ;
+    padding-top: 52.5px;
     border-top: 1px solid #e0e0e0;
 }
 
@@ -281,5 +281,124 @@ body {
     color: #999999;
 }
 /* ABOUT-US */
+
+/* -------------------------------- */
+
+/* ALL-SERVICES */
+.all-services {
+
+}
+
+.all-services__top {
+    height: 367px;
+    background: 
+    linear-gradient(90deg, #504dc2 0%, #5f12d0 100%),
+    #c4c4c4;
+    padding-top: 75px;
+}
+
+.all-services__top > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all-services__top__title {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 146%;
+    color: #fff;
+    max-width: 660px;
+}
+
+.all-services__cards {
+    margin-top: 52.5px;
+}
+
+.all-services__cards > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22.5px;
+    border-bottom: 3.5px solid #e0e0e0;
+    padding-bottom: 63px;
+}
+
+.all-services__card img {
+    border-radius: 7.5px;
+    width: 250px;
+    height: 213px;
+}
+
+.all-services__card__title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    margin-top: 22.5px;
+}
+.all-services__card__title span {
+    color: #4985ff;
+}
+
+.all-services__card__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    color: #999999;
+    margin: 22.5px 0 22.5px 0;
+}
+
+.all-services__card__link {
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4985ff;
+}
+
+.all-services__bottom {
+    background: #fff;
+    height: 361px;
+    margin-bottom: 63px;
+}
+
+/* ALL-SERVICES */
+
+/* -------------------------------- */
+
+/* ALL-PROJECTS */
+.all-projects {
+    padding: 75px 0 168px 0;
+    background-color: #F6F6F8;
+}
+
+.all-projects__title {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 146%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 37px;
+}
+
+.all-projects__desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 158%;
+    text-align: center;
+    color: #999999;
+    max-width: 547px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.all-projects__imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+
+/* ALL-PROJECTS */
 
 /* -------------------------------- */
