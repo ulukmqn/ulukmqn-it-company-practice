@@ -481,7 +481,110 @@ body {
     line-height: 158%;
     color: #fff;
 }
+/* При наведении */
+.video__card__btn:hover {
+    transform: translate(-50%, -50%) scale(1.03); /* лёгкое увеличение */
+    box-shadow: 0 8px 20px rgba(72, 133, 255, 0.4); /* тень вокруг кнопки */
+    background: rgba(72, 133, 255, 0.1); /* лёгкий фон */
+}
+
+/* При нажатии */
+.video__card__btn:active {
+    transform: translate(-50%, -50%) scale(0.99); /* эффект вдавливания */
+    box-shadow: 0 4px 10px rgba(72, 133, 255, 0.3); /* тень меньше */
+    background: rgba(72, 133, 255, 0.2); /* чуть более заметный фон */
+}
+
+/* Анимация для SVG (крутим или слегка двигаем при hover) */
+.video__card__btn svg {
+    transition: transform 0.3s ease;
+}
+
+.video__card__btn:hover svg {
+    transform: rotate(100deg); /* лёгкий поворот при наведении */
+}
 
 /* VIDEO */
+
+/* -------------------------------- */
+
+/* SUBCRIBE */
+.subcribe {
+    padding: 64px 0 64px 0;
+}
+
+.subcribe__title {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+}
+
+.suncribe__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    text-align: center;
+    color: #999999;
+    margin-top: 15px;
+    margin-bottom: 22.5px;
+}
+
+.newsletter {
+    display: flex; /* чтобы input и button были в одной строке */
+    width: 366px; /* ширина input + button: 366 + 142 */
+    height: 33px;
+     margin: 0 auto; /* центрирование по горизонтали */
+}
+
+.newsletter input {
+    border: 0.75px solid #f2f2f2;
+    border-radius: 22px 0 0 22px; /* закругляем только левую часть */
+    padding: 15px 24px;
+    outline: none;
+    border-right: none;
+    box-shadow: 0 0 7px 0 rgba(111, 111, 111, 0.25);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    color: #999999;
+}
+
+.newsletter button {
+    width: 142px;
+    height: 33px;
+    border: 0.75px solid #f2f2f2;
+    border-left: none;
+    border-radius: 0 22px 22px 0;
+    background-color: #4985ff;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 7px 0 rgba(111, 111, 111, 0.25);
+    font-weight: 500;
+    font-size: 14px;    
+    text-align: center;
+    transition: all 0.3s ease; /* плавная анимация */
+}
+.newsletter button:hover {
+    background-color: #366ed9; /* чуть темнее при наведении */
+    box-shadow: 0 5px 15px rgba(72, 133, 255, 0.4); /* более яркая тень */
+    transform: translateY(-1px); /* эффект подъема */
+}
+
+.newsletter button:active {
+    background-color: #2b55b0; /* еще темнее при нажатии */
+    box-shadow: 0 2px 5px rgba(72, 133, 255, 0.3); /* уменьшаем тень */
+    transform: translateY(0px); /* эффект нажатия вниз */
+}
+
+.subcribe__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    text-align: center;
+    color: #999999;
+    margin-top: 26px;
+}
+/* SUBCRIBE */
 
 /* -------------------------------- */
